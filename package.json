@@ -1,0 +1,21 @@
+{
+  "name": "niswartha-backend",
+  "version": "1.0.0",
+  "description": "REST API for Orphanage Connect",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["express", "mongodb", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "razorpay": "^2.9.1"
+  }
+}
